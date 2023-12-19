@@ -1,8 +1,40 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramClient.Console", "TelegramClient.Console\TelegramClient.Console.csproj", "{33137951-F4B9-4AD1-A6DB-E8AF1623B037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Auth\Auth.csproj", "{72A0CA8F-8E22-4AB8-95F9-C082D53E35D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{D144B943-4561-4593-99D7-4FBA72707F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statistics", "Statistics\Statistics.csproj", "{7F3A3750-957F-492E-B05E-873A0EA52142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{2B6929FE-050B-43B4-98A4-1705DB086841}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33137951-F4B9-4AD1-A6DB-E8AF1623B037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33137951-F4B9-4AD1-A6DB-E8AF1623B037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33137951-F4B9-4AD1-A6DB-E8AF1623B037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33137951-F4B9-4AD1-A6DB-E8AF1623B037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A0CA8F-8E22-4AB8-95F9-C082D53E35D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A0CA8F-8E22-4AB8-95F9-C082D53E35D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A0CA8F-8E22-4AB8-95F9-C082D53E35D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A0CA8F-8E22-4AB8-95F9-C082D53E35D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D144B943-4561-4593-99D7-4FBA72707F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D144B943-4561-4593-99D7-4FBA72707F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D144B943-4561-4593-99D7-4FBA72707F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D144B943-4561-4593-99D7-4FBA72707F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3A3750-957F-492E-B05E-873A0EA52142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3A3750-957F-492E-B05E-873A0EA52142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3A3750-957F-492E-B05E-873A0EA52142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3A3750-957F-492E-B05E-873A0EA52142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6929FE-050B-43B4-98A4-1705DB086841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6929FE-050B-43B4-98A4-1705DB086841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6929FE-050B-43B4-98A4-1705DB086841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6929FE-050B-43B4-98A4-1705DB086841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
